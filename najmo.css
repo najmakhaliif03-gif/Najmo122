@@ -1,0 +1,127 @@
+
+body {
+    background-color: #b3d7ff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: white;
+    border: 1px solid #999;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.main-header {
+    background-color: #2b5b84;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid #ccc;
+}
+
+.main-header h1 {
+    font-size: 24px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 5px rgba(255,255,255,0.4);
+}
+
+.content-wrapper {
+    display: flex;
+    min-height: 450px;
+}
+
+.sidebar {
+    width: 25%;
+    background-color: white;
+    padding: 20px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 8px;
+}
+
+.sidebar ul li a {
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    width: 75%;
+    background-color: #d2e4f7;
+    padding: 20px;
+}
+
+.welcome-banner {
+    background-color: #2b5b84;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 2px dashed #f3d478; 
+}
+
+
+.news-section {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+.news-img {
+    width: 130px;
+    height: auto;
+    border: 1px solid #333;
+}
+
+.news-text {
+    font-size: 14px;
+    color: #111;
+    line-height: 1.4;
+}
+
+.news-text p {
+    margin-bottom: 10px;
+}
+
+
+.list-section h3 {
+    font-size: 16px;
+    color: #1a1a4b;
+    border-bottom: 2px solid #6c8ca1;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.list-section ul {
+    padding-left: 20px;
+    font-size: 14px;
+    color: #111;
+}
+
+.list-section ul li {
+    margin-bottom: 5px;
+}
+
+.main-footer {
+    background-color: #1d354d;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 13px;
+    font-style: italic;
+    border-top: 2px solid #333;
+}
